@@ -5,6 +5,8 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
+    "copier": "slidev --open copier/main.md",
+    "mongodb": "slidev --open mongodb/main.md",
     "export": "slidev export"
   },
   "dependencies": {
