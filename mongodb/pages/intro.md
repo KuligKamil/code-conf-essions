@@ -14,3 +14,6 @@ https://www.linkedin.com/in/kamil-kulig-81488b89/
 https://github.com/KuligKamil
 
 
+discord: kamilkulig
+
+

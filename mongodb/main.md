@@ -37,10 +37,46 @@ src: ./pages/agenda.md
 src: ./pages/why.md
 ---
 ---
+src: ./pages/mvp.md
+---
+---
+src: ./pages/popularity-mongodb.md
+---
+---
+src: ./pages/abc.md
+---
+---
 src: ./pages/tools.md
 ---
 ---
+src: ./pages/criteria.md
+---
+---
+src: ./pages/pydantic.md
+---
+---
+src: ./pages/fastapi.md
+---
+---
+src: ./pages/popularity-tools.md
+---
+---
+src: ./pages/driver-vs-odm.md
+---
+---
+src: ./pages/summary-comparison.md
+---
+---
+src: ./pages/beanie.md
+---
+---
 src: ./pages/document_database.md
+---
+---
+src: ./pages/pydantic+beanie.md
+---
+---
+src: ./pages/how-to-use-document.md
 ---
 ---
 src: ./pages/demo.md
