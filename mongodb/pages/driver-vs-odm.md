@@ -1,5 +1,9 @@
-# **driver vs ODM**
+# **Driver vs ODM**
+
+##
+
 **Driver** give basic connection & basic options.
+
 **Document-Object Mapper** (think ORM Object–Relational Mapping, but for document databases).
 
 | Feature                | **Driver**                        | **ODM**                            |

@@ -22,6 +22,7 @@ transition: slide-left
 mdc: true
 # take snapshot for each slide in the overview
 # overviewSnapshots: true
+hideInToc: true
 ---
 
 # MongoDB for Beginners
@@ -34,13 +35,10 @@ src: ../pages/global-intro.md
 src: ./pages/agenda.md
 ---
 ---
+src: ./pages/introduction.md
+---
+---
 src: ./pages/why.md
----
----
-src: ./pages/mvp.md
----
----
-src: ./pages/popularity-mongodb.md
 ---
 ---
 src: ./pages/abc.md
@@ -50,15 +48,6 @@ src: ./pages/tools.md
 ---
 ---
 src: ./pages/criteria.md
----
----
-src: ./pages/pydantic.md
----
----
-src: ./pages/fastapi.md
----
----
-src: ./pages/async.md
 ---
 ---
 src: ./pages/popularity-tools.md
@@ -73,7 +62,7 @@ src: ./pages/summary-comparison.md
 src: ./pages/beanie.md
 ---
 ---
-src: ./pages/document_database.md
+src: ./pages/document-database.md
 ---
 ---
 src: ./pages/json-vs-bson.md
