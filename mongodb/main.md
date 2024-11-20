@@ -1,6 +1,6 @@
 ---
 # You can also start simply with 'default'
-theme: seriph
+# theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
@@ -28,7 +28,7 @@ mdc: true
 by Kamil Kulig
 
 ---
-src: ./pages/intro.md
+src: ../pages/global-intro.md
 ---
 ---
 src: ./pages/agenda.md
@@ -58,6 +58,9 @@ src: ./pages/pydantic.md
 src: ./pages/fastapi.md
 ---
 ---
+src: ./pages/async.md
+---
+---
 src: ./pages/popularity-tools.md
 ---
 ---
@@ -73,14 +76,48 @@ src: ./pages/beanie.md
 src: ./pages/document_database.md
 ---
 ---
+src: ./pages/json-vs-bson.md
+---
+---
 src: ./pages/pydantic+beanie.md
 ---
 ---
 src: ./pages/how-to-use-document.md
 ---
 ---
-src: ./pages/demo.md
+src: ./pages/connect-to-database.md
+---
+---
+src: ./pages/show-schema.md
+---
+---
+src: ./pages/create.md
+---
+---
+src: ./pages/read.md
+---
+---
+src: ./pages/extend-model.md
+---
+---
+src: ./pages/embedding.md
+---
+---
+src: ./pages/relations.md
+---
+---
+src: ./pages/update.md
+---
+---
+src: ./pages/delete.md
+---
+---
+src: ./pages/advance-queries.md
 ---
 ---
 src: ./pages/summary.md
+---
+---
+src: ./pages/resource.md
+---
 ---
