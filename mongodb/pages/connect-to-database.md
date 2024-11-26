@@ -1,4 +1,8 @@
-# Connect to your mongo database.
+---
+layout: two-cols
+---
+
+# Connect to Database
 
 1. In the left settings bar, go to **Network Access** and check if your IP address has been added successfully. You should see a green dot in the status column. If your IP address is not added, you will not be able to connect to the database from your device.
 ![image](./assets/8-Atlas.png)
@@ -19,6 +23,7 @@ To initialize **Beanie** require:
 
 This approach isn't the way to do in production.
 
+::right::
 
 ```python 
 import os
@@ -44,10 +49,11 @@ async def database_init(document_models: list[Document], clear_database: bool = 
 
 run(database_init(document_models=[Task, User]))
 ```
-Function **`init_beanie`** also supports the parameters named:
-* `allow_index_dropping: bool = False` - If you manage the indexes by yourself, when the parameter is set to`True`, indexes will be dropped.
-* `recreate_views: bool = False` - If you want to use virtual views this parameter should be set to `True` *(aggregation pipelines stored in MongoDB that act as collections for reading operations)*.
-* `multiprocessing_mode: bool = False` - If multiprocessing mode is set to `True` it will patch the motor client to use process's event loop.
+
 
 *[Documentation for beanie initialization.](https://beanie-odm.dev/tutorial/initialization/)*
 
+<!-- Function **`init_beanie`** also supports the parameters named:
+* `allow_index_dropping: bool = False` - If you manage the indexes by yourself, when the parameter is set to`True`, indexes will be dropped.
+* `recreate_views: bool = False` - If you want to use virtual views this parameter should be set to `True` *(aggregation pipelines stored in MongoDB that act as collections for reading operations)*.
+* `multiprocessing_mode: bool = False` - If multiprocessing mode is set to `True` it will patch the motor client to use process's event loop. -->

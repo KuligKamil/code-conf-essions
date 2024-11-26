@@ -32,3 +32,4 @@ https://github.com/KuligKamil
 ::right::
 
 ![Kamil Kulig](./assets/me.png)
+

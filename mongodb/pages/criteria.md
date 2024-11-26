@@ -1,3 +1,7 @@
+---
+hideInToc: true
+---
+
 # Criteria for Candidates
 
 To find the ideal Python tool for MongoDB, we focused on specific criteria: 

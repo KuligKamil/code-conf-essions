@@ -1,5 +1,10 @@
+---
+layout: two-cols
+title: CRUD
+---
+# CREATE
 
-To insert OUR Adam to database we need to use one of 5 options
+Insert to database we need to use one of 5 options
 
 * **insert** - basic method to insert Document
 * **insert_many** - to insert one or more Documents
@@ -7,6 +12,9 @@ To insert OUR Adam to database we need to use one of 5 options
 * create, insert_one - synonyms for insert 
 
 Remember for each use await key word otherwise you will return couritne object & you will not insert object.
+
+::right::
+
 
 ```python
 hot_adam = User(name="Adam", surname="Brzyzek", email="hotadam@gmail.com")

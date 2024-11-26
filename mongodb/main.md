@@ -28,6 +28,8 @@ hideInToc: true
 # MongoDB for Beginners
 by Kamil Kulig
 
+<!-- TODO: slide we will omit imports for standard libabry to easier read staff -->
+<!-- TODO: title change , I want only title change in Toc -->
 ---
 src: ../pages/global-intro.md
 ---
@@ -74,6 +76,9 @@ src: ./pages/pydantic+beanie.md
 src: ./pages/how-to-use-document.md
 ---
 ---
+src: ./pages/extend-model.md
+---
+---
 src: ./pages/connect-to-database.md
 ---
 ---
@@ -84,9 +89,6 @@ src: ./pages/create.md
 ---
 ---
 src: ./pages/read.md
----
----
-src: ./pages/extend-model.md
 ---
 ---
 src: ./pages/embedding.md

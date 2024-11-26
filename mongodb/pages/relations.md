@@ -1,43 +1,51 @@
+---
+layout: two-cols
+hideInToc: true
+---
 
-## Relations
+# Relations - Referencing?
+
+- **Definition**:
+  - Documents can link to other documents
+  - Achieved using references
+
+- **Types of Relations**:
+  - **Embedded Documents**:
+    - Nested documents within a document
+    - Efficient for related data accessed together
+  - **Referenced Documents**:
+    - Separate documents linked via ObjectId
+    - Useful for large or frequently changing data
+
+
 The document can contain links to other documents in their fields.
 
+
+::right:: 
 Example add link Task to User
 
-
 ```python
-from asyncio import run
-from pydantic import BaseModel
-from beanie import Document
-from typing import Optional
-
 
 User = ForwardRef("User")
 
-class Task(Document, Date, Active):
+class User(Document):
     name: str
-    status: StatusType = StatusType.BACKLOG
+
+class Task(Document):
+    name: str
     user: Link[User]
 
-class User(Document, Date, Active):
-    name: str
-    surname: str
-    email: str
-    address: Optional[Address] = None
-    recently_tasks: Optional[list[Task]] = []
-
-
-run(database_init(document_models=[User, Task], clear_database=True))
-
-hot_adam = User(name="Adam",surname="Brzyzek",email="hotbrzyzek@gmail.com")
+hot_adam = User(name="Adam")
 
 await User.insert(hot_adam)
 
 tasks = [
-    Task(name="sail", user=hot_adam.id), # TODO: CHECK IF IT WORKING with hot_adam without id
+    Task(name="sail", user=hot_adam.id), 
+    # TODO: CHECK IF IT WORKING with hot_adam without id
     Task(name="drink beers", user=hot_adam.id),
 ]
 await Task.insert_many(tasks)
-user.recently_tasks = tasks
-await user.save()
+TODO: show output
+TODO: create script shwo that working
 ```
+

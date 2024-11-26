@@ -1,6 +1,6 @@
 ---
 layout: two-cols-header
-# layout: two-cols
+hideInToc: true
 ---
 
 # How use Document

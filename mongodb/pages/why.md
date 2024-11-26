@@ -1,5 +1,6 @@
 ---
 layout: two-cols
+hideInToc: true
 ---
 # Why MongoDB?
 

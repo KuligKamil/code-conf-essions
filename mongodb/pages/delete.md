@@ -1,4 +1,6 @@
-
+---
+hideInToc: true
+---
 # Delete
 
 To delete use method delete() XD

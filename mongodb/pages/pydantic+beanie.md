@@ -1,4 +1,4 @@
-# Pydantic + Beanie = ❤️
+# Pydantic + ? = ❤️
 
 To create Document in Collections we need to use the basic class in Beanie 
 The basic class in Beanie is Document class to create collections of Document.

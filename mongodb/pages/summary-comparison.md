@@ -1,3 +1,7 @@
+---
+hideInToc: true
+---
+
 # Summary Comparison
 
 | tool         |  type  | support Pydantic | support async |

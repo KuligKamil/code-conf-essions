@@ -1,4 +1,4 @@
-# **Driver vs ODM**
+# Driver vs. ODM
 
 ##
 

@@ -1,3 +1,7 @@
+---
+layout: two-cols
+---
+
 # Resources
 
 * Documentation for MongoDB [https://www.mongodb.com/docs/](https://www.mongodb.com/docs/)
@@ -11,6 +15,8 @@
   * Schema Design [link](https://www.youtube.com/watch?v=J1RRM53I3kc&list=PL4RCxklHWZ9tB00Sh2nMftVIBaVG_-bmY)
 * Code with Mark Smith on official channel 
 * Presentation on PyCon by Mark Smith - Everything You Know About MongoDB is Wrong! [link](https://www.youtube.com/watch?v=ISfzI7LTDL4) 
+
+::right::
 
 ## [OPTIONAL INFO] Mongoose [https://www.mongodb.com/docs/mongodb-shell/](https://www.mongodb.com/docs/mongodb-shell/)
 
