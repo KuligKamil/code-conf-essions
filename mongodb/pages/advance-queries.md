@@ -1,13 +1,12 @@
 ---
 hideInToc: true
+layout: two-cols
 ---
 
 # Simple queries in MongoDB Atlas 
+Cheat sheet [MongoDB Atlas filter](https://www.mongodb.com/docs/compass/current/query/filter/).
 
-In MongoDB Atlas you can browse data from your database. On the page, you need to select Clusters from the options on the left bar and then press button **`Browse Collection`**. From this level of the page you can see the **filter field** used for query data. You can use all the MongoDB [query operators](https://www.mongodb.com/docs/manual/reference/operator/query/) except the *\$text* and *\$expr* operators.
-
-![image](./assets/atlas-filter.png)
-# Cheat sheet [MongoDB Atlas filter](https://www.mongodb.com/docs/compass/current/query/filter/).
+<!-- TODO: add example in Beanie  -->
 
 
 Logical:
@@ -15,6 +14,8 @@ Logical:
 2. **OR**: `{ $or: [ { field: value }, { field: value } ] }`
 3. **NOT**: `{ field: { $not: { $eq: value } } }`
 4. **NOR**: `{ $nor: [ { field: value }, { field: value } ] }`
+
+::right::
 
 Comparison:
 1. **Greater than**: `{ field: { $gt: value } }`
@@ -32,7 +33,8 @@ Exists: `{ field: { $exists: boolean } }`
 Type: `{ field: { $type: BSON type } }`
 Any of the listed types: `{ field: { $type: [ BSON type1 , BSON type2, ... BSON typeN ] } }`
 
-
+<!-- 
+In MongoDB Atlas you can browse data from your database. On the page, you need to select Clusters from the options on the left bar and then press button **`Browse Collection`**. From this level of the page you can see the **filter field** used for query data. You can use all the MongoDB [query operators](https://www.mongodb.com/docs/manual/reference/operator/query/) except the *\$text* and *\$expr* operators.
 *Let's create some queries in MongoDB Altas.*
 
 **Exercise 10** - Search for user with id. 
@@ -115,4 +117,4 @@ create functions, for example
 
 <b><i>Solution</i></b>
 Come on. Again?! XD
-
+ -->

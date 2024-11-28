@@ -79,6 +79,9 @@ src: ./pages/how-to-use-document.md
 src: ./pages/extend-model.md
 ---
 ---
+src: ./pages/get-db.md
+---
+---
 src: ./pages/connect-to-database.md
 ---
 ---
