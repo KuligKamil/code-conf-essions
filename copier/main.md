@@ -28,7 +28,7 @@ mdc: true
 by Kamil Kulig
 
 ---
-src: ./pages/intro.md
+src: ../pages/global-intro.md
 ---
 ---
 src: ./pages/agenda.md
