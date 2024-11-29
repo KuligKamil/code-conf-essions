@@ -2,9 +2,7 @@
 
 ##
 
-**Driver** give basic connection & basic options.
-
-**Document-Object Mapper** (think ORM Object–Relational Mapping, but for document databases).
+<v-clicks>
 
 | Feature                | **Driver**                        | **ODM**                            |
 | ---------------------- | --------------------------------- | ---------------------------------- |
@@ -13,3 +11,11 @@
 | **Abstraction**        | Minimal                           | High, object-oriented              |
 | **Schema Enforcement** | None, or manual                   | Schema defined in code             |
 | **Best For**           | Performance, fine-grained control | Rapid development, maintainability |
+
+</v-clicks>
+
+
+<!-- 
+**Driver** give basic connection & basic options.
+
+**Document-Object Mapper** (think ORM Object–Relational Mapping, but for document databases). -->

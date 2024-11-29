@@ -8,4 +8,4 @@ In today's data-driven world, managing and querying large amounts of unstructure
 
 ## Tags / Keywords
 
-Mongodb, db, beanie, database
+MongoDB, db, Beanie, database

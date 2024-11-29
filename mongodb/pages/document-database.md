@@ -5,15 +5,21 @@ layout: two-cols-header
 
 <!-- ## Comparison between SQL and MongoDB -->
 
+<v-clicks>
+
 | SQL Database | MongoDB    |
 | ------------ | ---------- |
 | Table        | Collection |
 | Row          | Document   |
 | Column       | Field      |
 
+</v-clicks>
+
 <!-- ## Example: -->
 
 ::left::
+
+<v-clicks>
 
 SQL Table: Users
 
@@ -22,8 +28,11 @@ SQL Table: Users
 | 1   | John Doe | john@example.com |
 | 2   | Jane Doe | jane@example.com |
 
+</v-clicks>
 
 ::right::
+
+<v-clicks>
 
 MongoDB Collection: Users
 
@@ -36,6 +45,7 @@ MongoDB Collection: Users
   }]
   ```
 
+</v-clicks>
    
 <!-- 
 

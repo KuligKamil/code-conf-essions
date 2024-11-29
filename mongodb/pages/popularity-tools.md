@@ -4,12 +4,12 @@ hideInToc: true
 # Star history comparison 
 
 ##
+  
+<v-clicks> 
 
 ![star history](./assets/star-history.png){ width=60% }
-<!-- 
-<img scr='./star-history.png'  />
-
-<Comp src="./assets/star-history.png" /> -->
 
 
-[https://star-history.com/blog/how-to-use-github-star-history](https://star-history.com/blog/how-to-use-github-star-history)
+<FooterLink text="https://star-history.com/blog/how-to-use-github-star-histor" link="https://star-history.com/blog/how-to-use-github-star-history" />
+
+</v-clicks>

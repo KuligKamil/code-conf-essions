@@ -16,16 +16,16 @@ For update we have couple options
 
 ```python
 user = await User.find(User.name == "Kamil").first_or_none()
-user = await user.set({User.name: "Kean"})
+user = await user.set({User.name: "Keanu"})
 user.model_dump()
 ```
 
 Output
 ```python
 {'id': '66cbc95d9721746de2ec9ee6',
- 'name': 'John',
- 'surname': 'Brzyzek',
- 'email': 'hotbrzyzek@gmail.com'}
+ 'name': 'Keanu',
+ 'surname': 'Kulig',
+ 'email': 'hotkulig@gmail.com'}
 ```
 
 

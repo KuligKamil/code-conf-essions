@@ -3,6 +3,8 @@ title: Pydantic + ? = ❤️
 ---
 # Pydantic + Beanie = ❤️
 
+<v-clicks>
+
 To create Document in Collections we need to use the basic class in Beanie 
 The basic class in Beanie is Document class to create collections of Document.
 
@@ -26,6 +28,8 @@ Output
 ```
 True
 ```
+</v-clicks>
+
 <!-- 
 (beanie.odm.documents.Document,
  lazy_model.parser.new.LazyModel,

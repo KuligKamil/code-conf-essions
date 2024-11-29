@@ -4,17 +4,23 @@ hideInToc: true
 ---
 # Why MongoDB?
 
+<v-clicks>
 
 * Rule ABC - Always Be Curious!
 * It's rumored to be easy for creating MVPs (Minimum Viable Products)
 * MongoDB's popularity *
 
+</v-clicks>
+
 ::right::
 
+![Alt text](./assets/sql.png)
+
+Picture Generate with ChatGPT
 <!-- TODO: GENERATE PICTURE OF ANGERY  SQL DEVELOPER  -->
 <!-- ![MongoDB logo](./assets/logo.png) -->
 
-<!-- global-bottom.vue -->
+
 
 <div class="absolute right-30px bottom-30px">
   * <a href="https://db-engines.com/en/ranking">DB-Engines Ranking</a>, 
@@ -22,7 +28,7 @@ hideInToc: true
 </div>
 
 <!-- 
-
+TODO: use components for two links, maybe use slot
 I never use commercially use MongoDB or NoSQL Database.
 I always use Relational Databases. Mostly PostgreSQL.
 I always want to try something new.
