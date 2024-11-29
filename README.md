@@ -10,6 +10,14 @@ Edit the [slides.md](./slides.md) to see the changes.
 
 Learn more about Slidev at the [documentation](https://sli.dev/).
 
+## create new presentation
+
+`uv run copier copy .template .`
+
+add list of comme
+
+# TODO: add staff after add templete like pyproject.toml
+    <!-- "codeconfessions": "slidev --open codeconfessions/main.md", -->
 
 ## ABC Rule - Motivation
 

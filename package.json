@@ -7,6 +7,7 @@
     "dev": "slidev --open",
     "copier": "slidev --open copier/main.md",
     "mongodb": "slidev --open mongodb/main.md",
+    "confessions": "slidev --open code-conf-essions/main.md",
     "export": "slidev export"
   },
   "dependencies": {

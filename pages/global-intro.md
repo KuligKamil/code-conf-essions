@@ -7,6 +7,8 @@ hideInToc: true
 
 ##
 
+<v-clicks>
+
 💻 Fullstack Developer in Schneider Electric,
 
 🌟✨🏆 leader,
@@ -15,19 +17,21 @@ hideInToc: true
 
 🎮 gamer,
 
-🕺 king of disco,
+🙊 speaker, workshop instructor,
 
+🕺 king of disco,
 ⚽️🏀🏈🥊 love sport in every form,
 
 🇵🇱 from Poland
 
 
-links
 
 https://www.linkedin.com/in/kamil-kulig-81488b89/
 
 
 https://github.com/KuligKamil
+
+</v-clicks>
 
 ::right::
 
