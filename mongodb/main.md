@@ -23,6 +23,8 @@ mdc: true
 # take snapshot for each slide in the overview
 # overviewSnapshots: true
 hideInToc: true
+addons:
+  - ./
 ---
 
 # MongoDB for Beginners
