@@ -190,4 +190,33 @@ Sharing is Caring
 layout: center
 ---
 # TODO: Photos
+
+Share inspiration from:
+idols: 
+* Sebastián Ramírez aka Tianglo (fastapi), 
+* Daniel Stenberg (cURL), 
+* Bjarne Stroustrup (c++), 
+* Lukasz Langa (python, black)
+* Michal Korzycki
+  
+best presentation that I saw: 
+
+* Leszek Miotk  
+  * Harry Potter i Tajemnice Pythona: Peleryna Niewidka: wykrywanie kolorow z OpenCV
+  * PyCon PL 24'
+* Agnieszka Rybak, Sofware Engineer, Brickognize
+  * Lego, Latency, and Life: Building MLOps on a Budget 
+  * Data Science Summit 2024 Track: MLOps / Model Deployment (Onsite)
+  * Tags: MLOps, CPU model deployment, Cloud
+* Pablo Galindo Salgado
+  * PyConPL 24' key speech
+* Łukasz Mach
+  * Meeting-itis
+
+my young blood:
+* Maciej Morawski
+* Liza Koliechkina 
+* Adam Brzyzek, waiting for next presentation or workshop!
+* Sinem Ayyaldaz, waiting for next presentation or workshop!
+* Marcin Brzezinski,  waiting for next presentation or workshop!
 ---
