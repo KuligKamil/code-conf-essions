@@ -37,38 +37,128 @@ src: ./pages/agenda.md
 ---
 layout: two-cols
 ---
-# What Conference I was attended?
+<!-- # Meetups - Confs -->
 
-Attended 
+
+Attended:
+
+<v-clicks depth="3">
+
+  * MeetUps
+    * PyWaw
+    * MeetJS, WarsawJS
+    * Python Community in SE
+  
+* Conferences: 
+  * VueJS Conference Amsterdam
+  * VueJS Conference Berlin 
+  * Warsaw IT Days
+  * Data Science Summit
+  * Data Science Summit Machine Learning Edition
+  * DevAI by Data Science Summit
+  * Code Europe
+  * PyCon PL, PyCon SE, Python Summit
+
+</v-clicks>
 
 ::right::
 
 Speaker / Workshop Instructor
----
----
-# Why Worth go to Conference ?
 
-* Community - People
-* Idols - You could find one on this conference
-* Knowledge
-* Different Countries 
-* New Technologies, Solutions, Ideas
-* Not only theory
+<v-clicks >
+
+23
+* PyCon PL - Workshop - Discord Bot, Presentation - GraphQL
+* PyCon SE - Workshop - Discord Bot
+
+24
+* PyCon PL - Workshop - MongoDB 
+* PyCon SE - Workshop - MongoDB 
+* Python Summit - Presentation - MongoDB, Copier
   
+</v-clicks>
+<!-- When last time you been on conference? -->
+---
+---
+# Why Worth go to Conference?
+
+<v-clicks>
+
+* **Community & Networking** - Meet new people and expand your professional network.
+* **Inspiration** - Discover idols and role models in your field.
+* **Travel Opportunities** - Explore new countries and cultures. [Python Events](https://www.python.org/events/)
+* **Innovation** - Learn about new technologies, solutions, and ideas.
+* **Hands-On Learning** - Participate in workshops, not just theoretical sessions.
+* **Rule ABC**
+
+</v-clicks>
+
 ---
 ---
 # Why To Be Speaker/ Workshop Instructor?
 
-* Community - People
-* Branding for Company
-* Branding for Yourself as a Expert
-* Rule ABC 
+<v-clicks>
+
+* **Community & Networking** - Engage with the community and build connections.
+* **Company Branding** - Enhance your company's reputation.
+* **Personal Branding** - Establish yourself as an expert in your field.
+* **Rule ABC** 
+  
+</v-clicks>
+
 ---
+layout: center
+hideInToc: true
+---
+<v-clicks>
+
+# If you can’t explain it to a six-year-old, 
+# You don’t understand it yourself.
+
+</v-clicks>
+
+Not sure who
+
+---
+layout: center
+hideInToc: true
 ---
 
-## ABC Rule - Motivation
+<v-clicks>
 
-Always Be Curious! 
+# You don't have to be an expert, 
+# Just know more than the person learning from you.
+
+</v-clicks>
+
+Not sure who
+
+---
+layout: center
+hideInToc: true
+---
+
+<v-clicks>
+
+# The best option to learn something new.
+# Is to create workshop. 
+# You have perfect motivation.
+# Deadline.
+
+</v-clicks>
+
+Kamil Kulig
+
+
+---
+hideInToc: true
+---
+
+# ABC Rule - Always Be Curious! 
+
+Example
+
+<v-clicks>
 
 I never use commercially use MongoDB or NoSQL Database.
 
@@ -76,35 +166,28 @@ I always use Relational Databases. Mostly PostgreSQL.
 
 I always want to try something new.
 
----
----
-> If you can’t explain it to a six-year-old, you don’t understand it yourself.
-
-Not sure who
+</v-clicks>
 
 ---
+layout: center
 ---
-> You don't have to be an expert, just know more than the person learning from you.
+# Your Next Step 
 
-Not sure who
+Sharing is Caring
 
+<v-clicks depth="3">
+
+* Go to Conference or Meetup
+* Share something at work - could be something small
+* Share something at work - could be something smallPython Community in SE
+* Local Python Community in Your City
+* PyCon
+
+</v-clicks>
 ---
----
-> The best option to learn something new is to create workshop. You have perfect motivation, deadline. 
-
-Kamil Kulig
-
-
----
-# Stockholm - Sweden
-
-What worth to see
-what worth to eat
-what worth to buy
-
 
 ---
+layout: center
 ---
-src: ./pages/summary.md
----
+# TODO: Photos
 ---
