@@ -5,6 +5,7 @@ hideInToc: true
 
 # Updating 
 
+<v-clicks>
 
 For update we have couple options
 * save
@@ -12,7 +13,11 @@ For update we have couple options
 * update, set, inc - can be performed on the result of a find or find_one query, or on a document that was returned from an earlier query.
 * upsert - to insert a document when no documents are matched against the search criteri
 
+</v-clicks>
+
 ::right::
+
+<v-clicks>
 
 ```python
 user = await User.find(User.name == "Kamil").first_or_none()
@@ -30,3 +35,5 @@ Output
 
 
 <FooterLink text="Documentation Beanie for updating and deleting" link="https://beanie-odm.dev/tutorial/updating-%26-deleting/" />
+
+</v-clicks>

@@ -3,7 +3,9 @@ layout: two-cols
 hideInToc: true
 ---
 
-# Extend
+# Extend Model
+
+<v-clicks>
 
 You can always extend your Document with other classes like with pydantic classes.
 
@@ -23,9 +25,13 @@ class Task(Document):
 
 <!-- We would like to extend User for technical attribute. -->
 
+</v-clicks>
+
+
 ::right::
 
 
+<v-clicks>
 
 ```python
 
@@ -56,3 +62,5 @@ Output
  'surname': 'Brzyzek',
  'email': 'hotadam@gmail.com'}
 ```
+
+</v-clicks>

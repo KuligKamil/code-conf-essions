@@ -4,6 +4,8 @@ hideInToc: true
 
 # Connect to Database
 
+<v-clicks>
+
 ```python 
 import os
 
@@ -31,6 +33,7 @@ if __name__ == "__main__":
 
 <FooterLink text="*Documentation Beanie: How to Initialize Connection" link="https://beanie-odm.dev/tutorial/initialization/" />
 
+</v-clicks>
 
 <!--
 TODO: add lines to coder

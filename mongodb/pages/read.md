@@ -5,6 +5,10 @@ hideInToc: true
 
 # READ 
 
+TODO: maybe cange to show function
+
+<v-clicks depth="3">
+
 * **find** - basic function to get 
   * **to_list**
   * **first_or_none**
@@ -15,11 +19,20 @@ hideInToc: true
 
 Get all users in database
 
+
 ```python
 users = await User.find().to_list()
 ```
 
+
+</v-clicks>
+
+
 ::right::
+
+
+<v-clicks>
+
 
 Get first user in database
 
@@ -51,6 +64,8 @@ Output
 [{"name": "Kamil", "surname": "Kulig"}]
 
 ```
+
+</v-clicks>
 
 <!-- # How to get data? 
 

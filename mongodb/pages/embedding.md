@@ -4,6 +4,10 @@ title:  Embedding vs. Referencing
 ---
 # Embbedded Document
 
+
+<v-clicks depth="3">
+
+
 - **Definition**:
   - Documents within documents
   - Nested structure
@@ -15,7 +19,11 @@ title:  Embedding vs. Referencing
 
 - **Use Cases**: Storing related data accessed together
 
+</v-clicks>
+
 ::right::
+
+<v-clicks>
 
 Example: User profile with address
 
@@ -51,7 +59,7 @@ hot_adam = User(
 Link to documentation for MongoDB - Embedding MongoDB
 [https://www.mongodb.com/resources/products/fundamentals/embedded-mongodb](https://www.mongodb.com/resources/products/fundamentals/embedded-mongodb)
 
-
+</v-clicks>
 
 <!--
 

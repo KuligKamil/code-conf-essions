@@ -4,6 +4,8 @@ title: CRUD
 ---
 # CREATE
 
+<v-clicks depth="2">
+
 Insert to database we need to use one of 5 options
 
 * **insert** - basic method to insert Document
@@ -13,28 +15,39 @@ Insert to database we need to use one of 5 options
 
 Remember for each use await key word otherwise you will return couritne object & you will not insert object.
 
-::right::
-
+TODO: wrap text in slide - exmaple code
 
 ```python
-hot_adam = User(name="Adam", surname="Brzyzek", email="hotadam@gmail.com")
+hot_adam = User(name="Adam", 
+                surname="Brzyzek", 
+                email="hotadam@gmail.com")
 ```
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+
 
 ```python
 await hot_adam.save()
 ```
- or 
+
+or 
 
 ```python
 await User.save(hot_adam)
 ```
- or
+
+or
 
 ```python
 await hot_adam.insert()
 ```
 
- or
+or
 
 ```python
 await User.insert(hot_adam)
@@ -51,3 +64,4 @@ Output
  'surname': 'Brzyzek',
  'email': 'nothotadam@gmail.com'}
 ```
+</v-clicks>

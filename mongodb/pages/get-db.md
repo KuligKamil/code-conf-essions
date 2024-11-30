@@ -2,7 +2,12 @@
 title: Get DB & Connect to it
 ---
 # Get DB
+
+
+
 To connect to a database, you need to have a database instance running. How to have are a few options to set up a MongoDB database:
+
+<v-clicks depth="2">
 
 * Atlas Free Tier
   
@@ -19,6 +24,7 @@ To connect to a database, you need to have a database instance running. How to h
      docker run --name mongodb -d -p 27017:27017 mongo
      ```
 
+</v-clicks>
 <!--   *  MongoDB Atlas offers a free tier that allows you to create a cloud-based MongoDB instance.
   *   Install MongoDB directly on your local machine.
   *   Run a MongoDB instance in a Docker container.

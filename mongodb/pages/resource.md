@@ -4,6 +4,8 @@ layout: two-cols
 
 # Resources
 
+<v-clicks>
+
 * Documentation for MongoDB [https://www.mongodb.com/docs/](https://www.mongodb.com/docs/)
 
 * Documentation Beanie [https://beanie-odm.dev/](https://beanie-odm.dev/)
@@ -16,7 +18,11 @@ layout: two-cols
 * Code with Mark Smith on official channel 
 * Presentation on PyCon by Mark Smith - Everything You Know About MongoDB is Wrong! [link](https://www.youtube.com/watch?v=ISfzI7LTDL4) 
 
+</v-clicks>
+
 ::right::
+
+<v-clicks>
 
 ## [OPTIONAL INFO] Mongoose [https://www.mongodb.com/docs/mongodb-shell/](https://www.mongodb.com/docs/mongodb-shell/)
 
@@ -37,3 +43,4 @@ If you would like more native approach in MongoDB
 * Good to check setting parameter is_root = True
 [https://beanie-odm.dev/tutorial/inheritance/](https://beanie-odm.dev/tutorial/inheritance/)
 
+</v-clicks>

@@ -5,11 +5,13 @@ hideInToc: true
 
 # Relations - Referencing?
 
-- **Definition**:
+<v-clicks depth="3">
+
+**Definition**:
   - Documents can link to other documents
   - Achieved using references
 
-- **Types of Relations**:
+**Types of Relations**:
   - **Embedded Documents**:
     - Nested documents within a document
     - Efficient for related data accessed together
@@ -20,8 +22,12 @@ hideInToc: true
 
 The document can contain links to other documents in their fields.
 
+</v-clicks>
 
 ::right:: 
+
+<v-clicks>
+
 Example add link Task to User
 
 ```python
@@ -49,3 +55,4 @@ TODO: show output
 TODO: create script shwo that working
 ```
 
+</v-clicks>
