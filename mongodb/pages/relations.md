@@ -41,14 +41,14 @@ class Task(Document):
     name: str
     user: Link[User]
 
-hot_adam = User(name="Adam")
+hot_kamil = User(name="Kamil")
 
-await User.insert(hot_adam)
+await User.insert(hot_kamil)
 
 tasks = [
-    Task(name="sail", user=hot_adam.id), 
-    # TODO: CHECK IF IT WORKING with hot_adam without id
-    Task(name="drink beers", user=hot_adam.id),
+    Task(name="sail", user=hot_kamil.id), 
+    # TODO: CHECK IF IT WORKING with hot_kamil without id
+    Task(name="drink beers", user=hot_kamil.id),
 ]
 await Task.insert_many(tasks)
 TODO: show output

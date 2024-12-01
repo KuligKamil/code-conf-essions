@@ -18,9 +18,9 @@ Remember for each use await key word otherwise you will return couritne object &
 TODO: wrap text in slide - exmaple code
 
 ```python
-hot_adam = User(name="Adam", 
-                surname="Brzyzek", 
-                email="hotadam@gmail.com")
+hot_kamil = User(name="Kamil", 
+                surname="Kulig", 
+                email="hotkamil@gmail.com")
 ```
 
 </v-clicks>
@@ -32,36 +32,36 @@ hot_adam = User(name="Adam",
 
 
 ```python
-await hot_adam.save()
+await hot_kamil.save()
 ```
 
 or 
 
 ```python
-await User.save(hot_adam)
+await User.save(hot_kamil)
 ```
 
 or
 
 ```python
-await hot_adam.insert()
+await hot_kamil.insert()
 ```
 
 or
 
 ```python
-await User.insert(hot_adam)
+await User.insert(hot_kamil)
 ```
 
 ```python
-hot_adam.model_dump()
+hot_kamil.model_dump()
 ```
 
 Output
 ```python 
 {'id': '66cb3c4631b062a669d4357c',
- 'name': 'Adam',
- 'surname': 'Brzyzek',
- 'email': 'nothotadam@gmail.com'}
+ 'name': 'Kamil',
+ 'surname': 'Kulig',
+ 'email': 'hotkamil@gmail.com'}
 ```
 </v-clicks>

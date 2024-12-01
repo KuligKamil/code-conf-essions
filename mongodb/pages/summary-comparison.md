@@ -8,9 +8,9 @@ hideInToc: true
 
 | tool         |  type  | support Pydantic | support async |
 | ------------ | :----: | :--------------: | :-----------: |
-| PyMongo      | driver |        ❌         |       ❌       |
-| Mongo Engine |  ODM   |        ❌         |       ❌       |
-| Motor        | driver |        ❌         |       ✅       |
+| PyMongo      | Driver |        ❌         |       ❌       |
+| Mongo Engine |  ODM   |        ✅         |       ❌       |
+| Motor        | Driver |        ❌         |       ✅       |
 | Beanie       |  ODM   |        ✅         |       ✅       |
 
 

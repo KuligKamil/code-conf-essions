@@ -42,16 +42,16 @@ class User(Document):
     email: str
     address: Optional[Address] = None
 
-hot_adam = User(
-    name="Adam",
-    surname="Brzyzek",
-    email="hotadam@gmail.com",
+hot_kamil = User(
+    name="Kamil",
+    surname="Kulig",
+    email="hotkamil@gmail.com",
     address=Address(
-        country="Poland",
-        city="Gliwice",
-        street="Jana Matejki 3",
-        building_number="IBU Craft Beers",
-        zip_code="44-100",
+        country="Wakanda",
+        city="Gotham",
+        street="Elm Street",
+        building_number="2137",
+        zip_code="0000",
     ),
 )
 ```

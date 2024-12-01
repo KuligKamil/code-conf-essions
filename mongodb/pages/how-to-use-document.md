@@ -8,6 +8,7 @@ hideInToc: true
 <v-clicks>
 
 Imagine that we're creating an MVP for an application. <br>
+
 Since we want to design it with users in mind, our first class will represent a User.
 
 Example of a User class in:
@@ -27,6 +28,8 @@ class User(BaseModel):
     name: str
     surname: str
     email: str
+
+
 ```
 </v-clicks>
 

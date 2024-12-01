@@ -1,17 +1,21 @@
 ---
 hideInToc: true
+title: Beanie
 ---
 
-# Beanie ODM
+<img style="height: 50px;" src="./assets/beanie-logo.png" /> 
+
+##
+
+
+
 
 <v-clicks>
 
-Object-document mapper for MongoDB. Data models are based on Pydantic. 
+Asynchronous Python object-document mapper (ODM) for MongoDB. Data models are based on Pydantic.
 
 Beanie wraps Motor, Motor wraps PyMongo.
 
 ![beanie dependency](./assets/beanie-dependency.png)
 
 </v-clicks>
-
-<!-- TODO: add logo to Beanier -->

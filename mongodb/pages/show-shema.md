@@ -22,13 +22,13 @@ Okey, but we don't have Document.
 We use will use inheritance Document class same as BaseModel class.
 
 ```python
-hot_adam = User(name="Adam", surname="Brzyzek", email="hotadam@gmail.com")
-hot_adam
+hot_kamil = User(name="Kamil", surname="Kulig", email="hotkamil@gmail.com")
+hot_kamil
 ```
 
 Output
 ```python
-User(id=None, revision_id=None, name='Adam', surname='Brzyzek', email='hotadam@gmail.com')
+User(id=None, revision_id=None, name='Kamil', surname='Kulig', email='hotkamil@gmail.com')
 ```
 
 
@@ -43,12 +43,12 @@ We can use Base Model methods.
 
 
 ```python
-hot_adam.model_dump()
+hot_kamil.model_dump()
 
 {'id': None,
- 'name': 'Adam',
- 'surname': 'Brzyzek',
- 'email': 'hotadam@gmail.com'}
+ 'name': 'Kamil',
+ 'surname': 'Kulig',
+ 'email': 'hotkamil@gmail.com'}
 ```
 
 

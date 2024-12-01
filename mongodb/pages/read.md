@@ -40,10 +40,10 @@ Get first user in database
 result = await User.find().first_or_none()
 ```
 
-Filters Adams
+Filters Kamils
 
 ```python
-adams = await User.find(User.name == "Kamil").to_list()
+kamils = await User.find(User.name == "Kamil").to_list()
 ```
 
 Select what you would like to return
@@ -54,9 +54,9 @@ class UserBasicInfo(BaseModel):
     surname: str
 
 TODO: check if it working!!!!!!!
-adams = await User.find(User.name == "Kamil")
-adams.project(UserBasicInfo).to_list()
-adams
+kamils = await User.find(User.name == "Kamil")
+kamils.project(UserBasicInfo).to_list()
+kamils
 ```
 
 Output
