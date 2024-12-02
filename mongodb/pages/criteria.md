@@ -14,5 +14,8 @@ hideInToc: true
 </v-clicks>
 
 <!-- 
-To find the ideal Python tool for MongoDB, we focused on specific criteria: 
+To find the perfect Python tool for MongoDB, we focused on specific criteria: 
+
+of course I we need robust ODM
+ integration with Pydatnic & FastAPI . I LOVE THIS ECOSYSTEM
 -->

@@ -53,4 +53,11 @@ Output
 
 You could use other methods to insert record like: `insert`, `insert_many`, `create`, `insert_one`.
 
+ `id` field reflects the unique _id field of the MongoDB document. 
+
+Each object of the Document type has this field. The default type of this is PydanticObjectId.
+
 </v-clicks>
+
+<!--d.
+ -->

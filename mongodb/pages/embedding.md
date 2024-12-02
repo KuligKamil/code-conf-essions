@@ -2,7 +2,7 @@
 layout: two-cols
 title:  Embedding vs. Referencing
 ---
-# Embbedded Document
+# Example: Embbedding
 
 
 <v-clicks depth="3">

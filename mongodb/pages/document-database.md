@@ -4,7 +4,7 @@ layout: two-cols-header
 # MongoDB as a Documents Database
 
 MVP -> for User -> examples:  User or Task for User.
-<!-- ## Comparison between SQL and MongoDB -->
+
 
 
 <v-clicks>
@@ -38,10 +38,10 @@ MongoDB Collection: Users
 
 ```json
   [{ 
-    "_id": 1, "name": "John Doe", "email": "john@example.com" 
+    "id": 1, "name": "John Doe", "email": "john@example.com" 
   },
   { 
-    "_id": 2, "name": "Jane Doe", "email": "jane@example.com" 
+    "id": 2, "name": "Jane Doe", "email": "jane@example.com" 
   }]
   ```
 

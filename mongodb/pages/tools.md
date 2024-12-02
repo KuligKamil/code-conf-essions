@@ -9,7 +9,7 @@ Found 4 potential candidates to use them
 <v-clicks>
 
 <div style="margin: 40px;">
-  <img style="height: 100px;" src="./assets/pymongo-logo.png" />
+  <!-- <img style="height: 100px;" src="./assets/pymongo-logo.png" />s -->
   <a href="https://github.com/mongodb/mongo-python-driver"> pymongo </a> 
   <p> Official driver </p>
 </div>

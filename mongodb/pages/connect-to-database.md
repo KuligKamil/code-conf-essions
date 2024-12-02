@@ -31,7 +31,7 @@ if __name__ == "__main__":
     run(database_init(document_models=[User]))
 ```
 
-<FooterLink text="*Documentation Beanie: How to Initialize Connection" link="https://beanie-odm.dev/tutorial/initialization/" />
+<FooterLink text="Documentation Beanie: How to Initialize Connection" link="https://beanie-odm.dev/tutorial/initialization/" />
 
 </v-clicks>
 

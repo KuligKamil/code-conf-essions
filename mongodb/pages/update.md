@@ -32,7 +32,7 @@ Output
   'id': '66cbc95d9721746de2ec9ee6',
  'name': 'Keanu',
  'surname': 'Kulig',
- 'email': 'hotkulig@gmail.com'
+ 'email': 'hotkamil@gmail.com'
 }
 ```
 

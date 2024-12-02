@@ -27,14 +27,14 @@ Output
 
 ```python
 {
- '_id': None,
+ 'id': None,
  'name': 'Kamil',
  'surname': 'Kulig',
  'email': 'hotkamil@gmail.com'
  }
 ```
 
-The _id is None because the document has not been added to the database yet.
+The id is None because the document has not been added to the database yet.
 
 </v-clicks>
 

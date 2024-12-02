@@ -9,20 +9,18 @@ hideInToc: true
 
 <v-clicks>
 
-💻 Fullstack Developer in Schneider Electric,
+💻 Fullstack Developer in Schneider Electric
 
-🙊 speaker, workshop instructor,
+🙊 Speaker, Workshop Instructor
 
-🐍 python programming lover,
+🐍 Python Programming Lover
 
-🎮 gamer,
+🎮 Gamer
 
-🕺 ⚽️🏀🏈🥊 love sport in every form,
+🕺 ⚽️🏀🏈🥊 love sport in every form
 
 🇵🇱 from Poland
 
-
-<!-- <QRcode title="My Linkedin " source="./assets/linkedin-qrcode.png"/> -->
 
 </v-clicks>
 
@@ -30,3 +28,8 @@ hideInToc: true
 
 ![Kamil Kulig](./assets/me.png)
 
+
+<!-- I love to share knowalage
+
+
+ -->

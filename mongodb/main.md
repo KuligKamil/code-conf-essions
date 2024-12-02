@@ -27,18 +27,24 @@ hideInToc: true
 addons:
   - ./
 lineNumbers: true
-# layout: image
-background: start.png
+layout: image
+image: ./pages/assets/start.png
 # backgroundSize: contain
 # backgroundSize: 20em 70%
 ---
 
-<!-- # MongoDB for Beginners
-by Kamil Kulig -->
+#
 
-<!-- TODO: slide we will omit imports for standard libabry to easier read staff -->
+<!-- 
+Hello 
+I would love to present
 
-<!-- <img src="./start.png"/> -->
+MongoDB
+FOR 
+BEGGINERS
+
+
+-->
 ---
 src: ../pages/global-intro.md
 ---
@@ -74,6 +80,9 @@ src: ./pages/beanie.md
 ---
 ---
 src: ./pages/document-database.md
+---
+---
+src: ./pages/bson-mem.md
 ---
 ---
 src: ./pages/json-vs-bson.md
@@ -135,4 +144,7 @@ src: ./pages/summary.md
 ---
 src: ./pages/resource.md
 ---
+---
+layout: image
+image: ./pages/assets/end.png
 ---
