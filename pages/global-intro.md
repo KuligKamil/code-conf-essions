@@ -9,27 +9,18 @@ hideInToc: true
 
 <v-clicks>
 
-💻 Fullstack Developer in Schneider Electric,
+💻 Fullstack Developer in Schneider Electric
 
-🌟✨🏆 leader,
+🙊 Speaker, Workshop Instructor
 
-🐍 python programming lover,
+🐍 Python Programming Lover
 
-🎮 gamer,
+🎮 Gamer
 
-🙊 speaker, workshop instructor,
-
-🕺 king of disco,
-⚽️🏀🏈🥊 love sport in every form,
+🕺 ⚽️🏀🏈🥊 love sport in every form
 
 🇵🇱 from Poland
 
-
-
-https://www.linkedin.com/in/kamil-kulig-81488b89/
-
-
-https://github.com/KuligKamil
 
 </v-clicks>
 
@@ -37,3 +28,8 @@ https://github.com/KuligKamil
 
 ![Kamil Kulig](./assets/me.png)
 
+
+<!-- I love to share knowalage
+
+
+ -->

@@ -4,12 +4,15 @@ layout: two-cols
 
 # Introduction to MongoDB
 
+<v-clicks>
 
-* Source-available
-* Cross-platform
-* Document-oriented database 
+* Source-Available
+* Cross-Platform
+* Document-Oriented Database 
 * Utilizes JSON-like documents with optional schemas
-* Classified as a NoSQL database
+* Classified as a NoSQL Database
+
+</v-clicks>
 
 ::right::
 

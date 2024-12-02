@@ -3,13 +3,18 @@ title: Pydantic + ? = ❤️
 ---
 # Pydantic + Beanie = ❤️
 
-To create Document in Collections we need to use the basic class in Beanie 
-The basic class in Beanie is Document class to create collections of Document.
+## 
+
+<v-clicks>
+
+To create Document in Collections we need to use the basic class in Beanie, Document.
+
+Document is class to create collections of Document.
 
 After inspect of the Beanie base class Document, it's inherent from pydantic Base Model.
 
+
 ```python
-import inspect
 from beanie import Document
 from pydantic import BaseModel
 
@@ -26,7 +31,11 @@ Output
 ```
 True
 ```
+</v-clicks>
+
 <!-- 
+
+
 (beanie.odm.documents.Document,
  lazy_model.parser.new.LazyModel,
  pydantic.main.BaseModel,

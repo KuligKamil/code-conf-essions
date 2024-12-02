@@ -1,9 +1,13 @@
 ---
 layout: two-cols-header
 ---
-# Mongodb as a Documents Database
+# MongoDB as a Documents Database
 
-<!-- ## Comparison between SQL and MongoDB -->
+MVP -> for User -> examples:  User or Task for User.
+
+
+
+<v-clicks>
 
 | SQL Database | MongoDB    |
 | ------------ | ---------- |
@@ -11,9 +15,11 @@ layout: two-cols-header
 | Row          | Document   |
 | Column       | Field      |
 
-<!-- ## Example: -->
+</v-clicks>
 
 ::left::
+
+<v-clicks>
 
 SQL Table: Users
 
@@ -22,23 +28,29 @@ SQL Table: Users
 | 1   | John Doe | john@example.com |
 | 2   | Jane Doe | jane@example.com |
 
+</v-clicks>
 
 ::right::
+
+<v-clicks>
 
 MongoDB Collection: Users
 
 ```json
   [{ 
-    "_id": 1, "name": "John Doe", "email": "john@example.com" 
+    "id": 1, "name": "John Doe", "email": "john@example.com" 
   },
   { 
-    "_id": 2, "name": "Jane Doe", "email": "jane@example.com" 
+    "id": 2, "name": "Jane Doe", "email": "jane@example.com" 
   }]
   ```
 
+</v-clicks>
    
 <!-- 
+Imagine that we're creating an MVP for an application. <br>
 
+Since we want to design it with users in mind, our first class will represent a User.
 
 In MongoDB, databases hold one or more collections of documents.
 

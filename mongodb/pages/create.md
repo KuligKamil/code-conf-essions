@@ -4,50 +4,60 @@ title: CRUD
 ---
 # CREATE
 
-Insert to database we need to use one of 5 options
+## 
 
-* **insert** - basic method to insert Document
-* **insert_many** - to insert one or more Documents
-* **save** - insert, update current object of class Document to database
-* create, insert_one - synonyms for insert 
+<v-clicks depth="2">
 
-Remember for each use await key word otherwise you will return couritne object & you will not insert object.
+To insert data to our database we could use `save` method.
+
+
+⚠️ For each use, include the `await` keyword; otherwise, you will return a coroutine object and not insert the object.
+
+```python
+hot_kamil = User(name="Kamil", 
+                surname="Kulig", 
+                email="hotkamil@gmail.com")
+```
+
+```python
+await hot_kamil.save()
+```
+
+or 
+
+```python
+await User.save(hot_kamil)
+```
+
+</v-clicks>
 
 ::right::
 
+<v-clicks>
+
+
 
 ```python
-hot_adam = User(name="Adam", surname="Brzyzek", email="hotadam@gmail.com")
-```
-
-```python
-await hot_adam.save()
-```
- or 
-
-```python
-await User.save(hot_adam)
-```
- or
-
-```python
-await hot_adam.insert()
-```
-
- or
-
-```python
-await User.insert(hot_adam)
-```
-
-```python
-hot_adam.model_dump()
+hot_kamil.model_dump()
 ```
 
 Output
 ```python 
-{'id': '66cb3c4631b062a669d4357c',
- 'name': 'Adam',
- 'surname': 'Brzyzek',
- 'email': 'nothotadam@gmail.com'}
+{
+ 'id': '66cb3c4631b062a669d4357c',
+ 'name': 'Kamil',
+ 'surname': 'Kulig',
+ 'email': 'hotkamil@gmail.com'
+}
 ```
+
+You could use other methods to insert record like: `insert`, `insert_many`, `create`, `insert_one`.
+
+ `id` field reflects the unique _id field of the MongoDB document. 
+
+Each object of the Document type has this field. The default type of this is PydanticObjectId.
+
+</v-clicks>
+
+<!--d.
+ -->

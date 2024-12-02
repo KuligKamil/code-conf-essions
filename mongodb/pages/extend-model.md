@@ -3,7 +3,9 @@ layout: two-cols
 hideInToc: true
 ---
 
-# Extend
+# Extend Model
+
+<v-clicks>
 
 You can always extend your Document with other classes like with pydantic classes.
 
@@ -23,9 +25,13 @@ class Task(Document):
 
 <!-- We would like to extend User for technical attribute. -->
 
+</v-clicks>
+
+
 ::right::
 
 
+<v-clicks>
 
 ```python
 
@@ -40,19 +46,30 @@ class User(Document, Active):
 class Task(Document, Active):
     name: str
     
-hot_adam = User(
-    name="Adam",
-    surname="Brzyzek",
-    email="hotadam@gmail.com")
+hot_kamil = User(
+    name="Kamil",
+    surname="Kulig",
+    email="hotkamil@gmail.com")
 
-hot_adam.model_dump()
+await hot_kamil.insert()
+
+hot_kamil.model_dump()
 ```
 
 Output
 ```python
 {'active': True,
- 'id': None,
- 'name': 'Adam',
- 'surname': 'Brzyzek',
- 'email': 'hotadam@gmail.com'}
+ 'id': '674cee131b2757808753133e',
+ 'name': 'Kamil',
+ 'surname': 'Kulig',
+ 'email': 'hotkamil@gmail.com'}
 ```
+
+</v-clicks>
+
+<!-- 
+THis is only 1 feature from Pydantic
+We could spoke about validation etc
+But I don't want to focus on that right now.
+
+ -->
