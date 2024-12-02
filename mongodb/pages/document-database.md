@@ -1,9 +1,11 @@
 ---
 layout: two-cols-header
 ---
-# Mongodb as a Documents Database
+# MongoDB as a Documents Database
 
+MVP -> for User -> examples:  User or Task for User.
 <!-- ## Comparison between SQL and MongoDB -->
+
 
 <v-clicks>
 
@@ -14,8 +16,6 @@ layout: two-cols-header
 | Column       | Field      |
 
 </v-clicks>
-
-<!-- ## Example: -->
 
 ::left::
 
@@ -48,7 +48,9 @@ MongoDB Collection: Users
 </v-clicks>
    
 <!-- 
+Imagine that we're creating an MVP for an application. <br>
 
+Since we want to design it with users in mind, our first class will represent a User.
 
 In MongoDB, databases hold one or more collections of documents.
 

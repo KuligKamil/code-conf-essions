@@ -10,12 +10,14 @@ layout: two-cols
 
 * Documentation Beanie [https://beanie-odm.dev/](https://beanie-odm.dev/)
 
-* Please join official Beanie Discord Channel [https://discord.gg/AwwTrbCASP](https://discord.gg/AwwTrbCASP)
+* Interactive tutorial prepared at official website mongodb.com [https://www.mongodb.com/docs/manual/tutorial/getting-started/](https://www.mongodb.com/docs/manual/tutorial/getting-started/ )
 
-* Official channel MongoDB - we recommend   
+* Official channel MongoDB  
   * Jumpstart [link](https://www.youtube.com/watch?v=RGfFpQF0NpE&list=PL4RCxklHWZ9v2lcat4oEVGQhZg6r4IQGV )
   * Schema Design [link](https://www.youtube.com/watch?v=J1RRM53I3kc&list=PL4RCxklHWZ9tB00Sh2nMftVIBaVG_-bmY)
-* Code with Mark Smith on official channel 
+
+  * Code with Mark Smith
+  
 * Presentation on PyCon by Mark Smith - Everything You Know About MongoDB is Wrong! [link](https://www.youtube.com/watch?v=ISfzI7LTDL4) 
 
 </v-clicks>
@@ -29,7 +31,7 @@ layout: two-cols
 * Settings [https://beanie-odm.dev/tutorial/defining-a-document/](https://beanie-odm.dev/tutorial/defining-a-document/)
     
 
-* interactive tutorial prepared at official website mongodb.com [https://www.mongodb.com/docs/manual/tutorial/getting-started/](https://www.mongodb.com/docs/manual/tutorial/getting-started/ )
+
 
 
 

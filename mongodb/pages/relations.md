@@ -1,58 +1,16 @@
 ---
-layout: two-cols
 hideInToc: true
 ---
 
-# Relations - Referencing?
-
-<v-clicks depth="3">
-
-**Definition**:
-  - Documents can link to other documents
-  - Achieved using references
-
-**Types of Relations**:
-  - **Embedded Documents**:
-    - Nested documents within a document
-    - Efficient for related data accessed together
-  - **Referenced Documents**:
-    - Separate documents linked via ObjectId
-    - Useful for large or frequently changing data
-
-
-The document can contain links to other documents in their fields.
-
-</v-clicks>
-
-::right:: 
+# Types of Relations
 
 <v-clicks>
 
-Example add link Task to User
-
-```python
-
-User = ForwardRef("User")
-
-class User(Document):
-    name: str
-
-class Task(Document):
-    name: str
-    user: Link[User]
-
-hot_kamil = User(name="Kamil")
-
-await User.insert(hot_kamil)
-
-tasks = [
-    Task(name="sail", user=hot_kamil.id), 
-    # TODO: CHECK IF IT WORKING with hot_kamil without id
-    Task(name="drink beers", user=hot_kamil.id),
-]
-await Task.insert_many(tasks)
-TODO: show output
-TODO: create script shwo that working
-```
+| Feature     | Embedded Documents                                            | Referenced Documents                                           |
+| ----------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
+| Structure   | Nested documents within a document                            | Documents can link to other documents                          |
+| Efficiency  | Efficient for related data accessed together                  | Useful for large or frequently changing data                   |
+| Data Access | Accessed together with the parent document                    | Separate documents linked via ObjectId                         |
+| Use Case    | Best for small, tightly coupled data                          | Best for large, loosely coupled data                           |
 
 </v-clicks>

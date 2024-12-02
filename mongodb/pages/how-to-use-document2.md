@@ -1,22 +1,15 @@
 ---
-layout: two-cols-header
 hideInToc: true
 ---
 
 # How use Document 
 
 <v-clicks>
+
 We will not see error message `CollectionWasNotInitialized`.
-
-</v-clicks>
-::left::
-
-<v-clicks>
-
 
 ```python 
 from beanie import Document
-
 
 class User(Document):
     name: str
@@ -25,33 +18,26 @@ class User(Document):
 ```
 
 ```python 
-
-hot_kamil = User(
-    name="Kamil",
-    surname="Kulig",
-    email="hotkamil@gmail.com")
+hot_kamil = User(name="Kamil", surname="Kulig", email="hotkamil@gmail.com")
+hot_kamil.model_dump()
 ```
 
 Output 
 
 
 ```python
-{'_id': None,
+{
+ '_id': None,
  'name': 'Kamil',
  'surname': 'Kulig',
- 'email': 'hotkamil@gmail.com'}
+ 'email': 'hotkamil@gmail.com'
+ }
 ```
-</v-clicks>
 
-::right::
-
-<v-clicks>
-
-
-
-
-
-We need to add something to database.
+The _id is None because the document has not been added to the database yet.
 
 </v-clicks>
 
+
+<!-- In next slides if I show something in Output as a dict should be Document Object.
+ -->

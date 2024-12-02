@@ -1,4 +1,7 @@
-# Driver vs. ODM
+---
+title: Driver vs. ODM
+---
+# Driver vs. ODM (Object Document Mapper)
 
 ##
 
@@ -12,7 +15,9 @@
 | **Schema Enforcement** | None, or manual                   | Schema defined in code             |
 | **Best For**           | Performance, fine-grained control | Rapid development, maintainability |
 
+
 </v-clicks>
+
 
 <v-clicks>
 

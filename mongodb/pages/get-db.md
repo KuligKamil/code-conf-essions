@@ -18,11 +18,8 @@ To connect to a database, you need to have a database instance running. How to h
     Go to [MongoDB installation page](https://docs.mongodb.com/manual/installation/). 
     Follow the installation instructions for your operating system.
 
-* Docker Installation
-    Use the following command to pull and run the MongoDB Docker image:
-     ```sh
-     docker run --name mongodb -d -p 27017:27017 mongo
-     ```
+* Docker Installation 
+  [Install MongoDB Community with Docker](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-community-with-docker/ )
 
 </v-clicks>
 <!--   *  MongoDB Atlas offers a free tier that allows you to create a cloud-based MongoDB instance.

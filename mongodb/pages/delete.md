@@ -5,10 +5,11 @@ hideInToc: true
 
 <v-clicks>
 
-To delete use method delete() XD
+To delete use method `delete`
 
 ```python
-toxic_workshop_instructor = await User.find_one(User.name == "Kamil")
+toxic_workshop_instructor = await User.find_one(User.name == "Kamil",
+                                                User.surname == "Kulig")
 await toxic_workshop_instructor.delete()
 ```
 

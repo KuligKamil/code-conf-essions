@@ -38,7 +38,7 @@ by Kamil Kulig -->
 
 <!-- TODO: slide we will omit imports for standard libabry to easier read staff -->
 
-<!-- <img src="./start.png"/> -->
+<img src="start.png"/>
 ---
 src: ../pages/global-intro.md
 ---

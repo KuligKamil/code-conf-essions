@@ -7,25 +7,7 @@ title:  Embedding vs. Referencing
 
 <v-clicks depth="3">
 
-
-- **Definition**:
-  - Documents within documents
-  - Nested structure
-
-- **Advantages**:
-  - Efficient data retrieval
-  - Reduces need for joins
-  - Keeps related data together
-
-- **Use Cases**: Storing related data accessed together
-
-</v-clicks>
-
-::right::
-
-<v-clicks>
-
-Example: User profile with address
+Use Case: User profile with address
 
 ```python
 class Address(BaseModel):
@@ -33,14 +15,14 @@ class Address(BaseModel):
     city: str
     street: str
     building_number: str
-    zip_code: str
-
 
 class User(Document):
     name: str
     surname: str
     email: str
     address: Optional[Address] = None
+
+await database_init(document_models=[User], clean_database=True)
 
 hot_kamil = User(
     name="Kamil",
@@ -51,13 +33,41 @@ hot_kamil = User(
         city="Gotham",
         street="Elm Street",
         building_number="2137",
-        zip_code="0000",
     ),
 )
 ```
+</v-clicks>
 
-Link to documentation for MongoDB - Embedding MongoDB
-[https://www.mongodb.com/resources/products/fundamentals/embedded-mongodb](https://www.mongodb.com/resources/products/fundamentals/embedded-mongodb)
+::right::
+
+<v-clicks>
+
+```python 
+await hot_kamil.insert()
+
+user = await User.find().first_or_none()
+
+user.model_dump()
+```
+
+Output: 
+
+```python
+{
+  'id': '674cee131b2757808753133e', 
+  'name': 'Kamil', 
+  'surname': 'Kulig', 
+  'email': 'hotkamil@gmail.com', 
+  'address': {
+    'country': 'Wakanda', 
+    'city': 'Gotham', 
+    'street': 'Elm Street', 
+    'building_number': '2137'
+  }
+}
+
+```
+<FooterLink text="Documentation MongoDB - Embedding MongoDB" link="https://www.mongodb.com/resources/products/fundamentals/embedded-mongodb"/>
 
 </v-clicks>
 

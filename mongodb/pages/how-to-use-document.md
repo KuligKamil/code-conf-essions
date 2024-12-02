@@ -5,20 +5,18 @@ hideInToc: true
 
 # How use Document
 
+## 
+
 <v-clicks>
 
-Imagine that we're creating an MVP for an application. <br>
-
-Since we want to design it with users in mind, our first class will represent a User.
-
-Example of a User class in:
+### Example of a User class in:
 
 </v-clicks>
 ::left::
 
 <v-clicks>
 
-##  Pydantic
+## Pydantic
 
 ```python 
 from pydantic import BaseModel

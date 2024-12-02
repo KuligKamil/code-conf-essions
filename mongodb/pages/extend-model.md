@@ -51,13 +51,15 @@ hot_kamil = User(
     surname="Kulig",
     email="hotkamil@gmail.com")
 
+await hot_kamil.insert()
+
 hot_kamil.model_dump()
 ```
 
 Output
 ```python
 {'active': True,
- 'id': None,
+ 'id': '674cee131b2757808753133e',
  'name': 'Kamil',
  'surname': 'Kulig',
  'email': 'hotkamil@gmail.com'}

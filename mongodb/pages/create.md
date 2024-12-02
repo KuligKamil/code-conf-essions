@@ -4,32 +4,20 @@ title: CRUD
 ---
 # CREATE
 
+## 
+
 <v-clicks depth="2">
 
-Insert to database we need to use one of 5 options
+To insert data to our database we could use `save` method.
 
-* **insert** - basic method to insert Document
-* **insert_many** - to insert one or more Documents
-* **save** - insert, update current object of class Document to database
-* create, insert_one - synonyms for insert 
 
-Remember for each use await key word otherwise you will return couritne object & you will not insert object.
-
-TODO: wrap text in slide - exmaple code
+⚠️ For each use, include the `await` keyword; otherwise, you will return a coroutine object and not insert the object.
 
 ```python
 hot_kamil = User(name="Kamil", 
                 surname="Kulig", 
                 email="hotkamil@gmail.com")
 ```
-
-</v-clicks>
-
-::right::
-
-<v-clicks>
-
-
 
 ```python
 await hot_kamil.save()
@@ -41,17 +29,13 @@ or
 await User.save(hot_kamil)
 ```
 
-or
+</v-clicks>
 
-```python
-await hot_kamil.insert()
-```
+::right::
 
-or
+<v-clicks>
 
-```python
-await User.insert(hot_kamil)
-```
+
 
 ```python
 hot_kamil.model_dump()
@@ -59,9 +43,14 @@ hot_kamil.model_dump()
 
 Output
 ```python 
-{'id': '66cb3c4631b062a669d4357c',
+{
+ 'id': '66cb3c4631b062a669d4357c',
  'name': 'Kamil',
  'surname': 'Kulig',
- 'email': 'hotkamil@gmail.com'}
+ 'email': 'hotkamil@gmail.com'
+}
 ```
+
+You could use other methods to insert record like: `insert`, `insert_many`, `create`, `insert_one`.
+
 </v-clicks>

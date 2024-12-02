@@ -6,9 +6,8 @@ layout: two-cols
 
 Found 4 potential candidates to use them
 
-
-
 <v-clicks>
+
 <div style="margin: 40px;">
   <img style="height: 100px;" src="./assets/pymongo-logo.png" />
   <a href="https://github.com/mongodb/mongo-python-driver"> pymongo </a> 
@@ -16,15 +15,9 @@ Found 4 potential candidates to use them
 </div>
 
 
-
-
-
-</v-clicks>  
-::left::
-
-
+</v-clicks>
+  
 ::right::
-
 
 
 <v-clicks>

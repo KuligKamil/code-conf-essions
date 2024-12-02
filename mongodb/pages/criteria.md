@@ -6,10 +6,10 @@ hideInToc: true
 
 <v-clicks>
 
-* Robust ODM, 
-* Seamless integration with Pydantic and FastAPI,
-* Support for asynchronous operations (async with FastAPI),
-* Popularity / Hype,
+* Robust ODM
+* Seamless integration with Pydantic and FastAPI
+* Support for asynchronous operations (async with FastAPI)
+* Popularity / Hype
 
 </v-clicks>
 
