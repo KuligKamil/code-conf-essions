@@ -1,3 +1,6 @@
+---
+hideInToc: true
+---
 # Agenda
 
 <Toc />

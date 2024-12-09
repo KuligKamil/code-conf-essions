@@ -2,11 +2,16 @@
   "name": "code-conf-essions",
   "type": "module",
   "private": true,
-  "scripts": {
+  "scripts": { 
+    "ps-2024": "slidev --open ps-2024/main.md",
+    "export-ps-2024": "slidev export ps-2024/main.md -output prod/ps-2024", 
+    "ps-2024": "slidev --open ps-2024/main.md",
+    "export-ps-2024": "slidev export ps-2024/main.md --output prod/ps-2024.pdf",
     "build": "slidev build",
     "dev": "slidev --open",
     "copier": "slidev --open copier/main.md",
     "mongodb": "slidev --open mongodb/main.md",
+    "export-mongodb": "slidev export mongodb/main.md --output prod/mongodb.pdf",
     "confessions": "slidev --open code-conf-essions/main.md",
     "export": "slidev export"
   },
@@ -15,5 +20,8 @@
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.49.0"
   }
 }
