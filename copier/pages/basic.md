@@ -5,7 +5,9 @@ layout: center
 
 <v-clicks>
 
-Library & CLI app for rendering project templates.
+Library & CLI app for rendering project templates. 
+
+NOT ONLY PROJECT TEMPLATES!
 
 <img style="height: 100px;" src="./assets/copier-logotype.png" />  
 

@@ -63,10 +63,13 @@ src: ./pages/features.md
 src: ./pages/generate.md
 ---
 ---
-src: ./pages/examples.md
+src: ./pages/new-presentation.md
 ---
 ---
-src: ./pages/comparison.md
+src: ./pages/new-blog-post.md
+---
+---
+src: ./pages/new-application.md
 ---
 ---
 src: ./pages/resource.md

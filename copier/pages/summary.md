@@ -9,29 +9,24 @@ layout: two-cols
 
 <v-clicks>
 
-Kudos for my friend & coauthor of workshop. 
+* Resource - Documentation for Copier [https://copier.readthedocs.io/en/stable/](https://copier.readthedocs.io/en/stable/)
 
-Adam Brzyzek.
 
-We prepare 15 exercises for you.
+My linkedin
 
-More complex example: `src/main.py`.
+<img style="height: 200px;" src="./assets/linkedin-qrcode.png" />  
 
-<img style="height: 200px;" src="./assets/workshop-qrcode.png" />  
+Kudos for my friend & speaker from Data Science Summit.
 
-<!-- <QRcode title="My Linkedin " source="./assets/linkedin-qrcode.png"/> -->
+Maciej Morawski
 
-<!-- 
-<img style="height: 300px;" :src="source" />   -->
 
 </v-clicks>
 
 ::right::
 <v-clicks>
 
-My linkedin
 
-<img style="height: 200px;" src="./assets/linkedin-qrcode.png" />  
 
 <!-- <QRcode title="My Linkedin " source="./assets/linkedin-qrcode.png"/> -->
 

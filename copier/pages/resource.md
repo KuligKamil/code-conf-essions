@@ -6,7 +6,6 @@ layout: two-cols
 
 <v-clicks>
 
-* Documentation for Copier [https://copier.readthedocs.io/en/stable/](https://copier.readthedocs.io/en/stable/)
 
 </v-clicks>
 

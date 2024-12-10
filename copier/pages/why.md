@@ -6,10 +6,9 @@ hideInToc: true
 
 <v-clicks depth="2">
 
-* We were unaware of Copier.
-  Cookiecutter was not ideal for existing projects - my case at work involved multi repo, which was resolved in 15 minutes.
+* Discovered Copier, completed task in 15 minutes. 
 * Easy, fast & useful tool better than other tools 😉
-* FastAPI template moved from CookieCutter to Copier
+* Fullstack FastAPI template moved from CookieCutter to Copier.
 * Rule ABC - Always Be Curious!
 
 
@@ -19,7 +18,7 @@ hideInToc: true
 
 <img style="height: 300px;" src="./assets/cat.png" />  
 
-Picture From I DON't KNOW WHO
+<!-- Picture From I DON't KNOW WHO -->
 <!-- TODO: GENERATE PICTURE OF ANGERY  SQL DEVELOPER  -->
 <!-- ![MongoDB logo](./assets/logo.png) -->
 
@@ -33,6 +32,8 @@ Picture From I DON't KNOW WHO
 </v-clicks>
 
 <!-- 
+  Unaware of Copier
+  Cookiecutter was not ideal for existing projects - my case at work involved multi repo, which was resolved in 15 minutes.
 TODO: use components for two links, maybe use slot
 I never use commercially use MongoDB or NoSQL Database.
 I always use Relational Databases. Mostly PostgreSQL.
