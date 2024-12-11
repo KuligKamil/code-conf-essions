@@ -45,7 +45,4 @@ hideInToc: true
 
  which was resolved in 15 minutes.
 
-
-
-
 --> 
