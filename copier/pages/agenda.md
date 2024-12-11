@@ -1,6 +1,21 @@
+---
+hideInToc: true
+---
+
 # Agenda
 
-* Basics of Copier
-* Demonstration
-* Copier vs Cookiecutter
-* Conclusion
+
+<Toc />
+
+<!-- 
+Next 
+
+Than
+
+Again comparison
+
+Later
+
+Afterwards
+
+Conclusions and Resources -->

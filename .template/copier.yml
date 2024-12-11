@@ -1,3 +1,7 @@
+presentation_title:
+  type: str # Any value will be treated raw as a string
+  help: Presentation title
+
 project_name:
   type: str # Any value will be treated raw as a string
   help: Presentation directory name
@@ -5,6 +9,5 @@ project_name:
   validator: >-
     {% if not (project_name | regex_search('^[a-z][a-z0-9\-]+$')) %} project_name must start with a letter, followed one or more letters, digits or dashes all lowercase. {% endif %}
 
-presentation_title:
-  type: str # Any value will be treated raw as a string
-  help: Presentation title
+_tasks:
+- uv run ./scripts/add_commands_to_package.py

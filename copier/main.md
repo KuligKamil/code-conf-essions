@@ -1,9 +1,10 @@
 ---
 # You can also start simply with 'default'
-theme: seriph
+# theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+
+
 # some information about your slides (markdown enabled)
 title: Welcome to Slidev
 info: |
@@ -22,10 +23,17 @@ transition: slide-left
 mdc: true
 # take snapshot for each slide in the overview
 # overviewSnapshots: true
+hideInToc: true
+addons:
+  - ./
+lineNumbers: true
+layout: image
+image: ./pages/assets/start.png
+# backgroundSize: contain
+# backgroundSize: 20em 70%
 ---
 
-# Getting Started with Copier
-by Kamil Kulig
+#
 
 ---
 src: ../pages/global-intro.md
@@ -37,12 +45,40 @@ src: ./pages/agenda.md
 src: ./pages/basic.md
 ---
 ---
-src: ./pages/demo.md
+src: ./pages/why.md
 ---
 ---
-src: ./pages/comparison.md
+src: ./pages/how-it-works.md
+---
+---
+src: ./pages/work-in-details.md
+---
+---
+src: ./pages/jinja.md
+---
+---
+src: ./pages/features.md
+---
+---
+src: ./pages/generate.md
+---
+---
+src: ./pages/new-presentation.md
+---
+---
+src: ./pages/new-blog-post.md
+---
+---
+src: ./pages/new-application.md
 ---
 ---
 src: ./pages/summary.md
 ---
+---
+layout: image
+image: ./pages/assets/feedback.png
+---
+---
+layout: image
+image: ./pages/assets/end.png
 ---
