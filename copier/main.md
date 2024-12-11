@@ -72,9 +72,6 @@ src: ./pages/new-blog-post.md
 src: ./pages/new-application.md
 ---
 ---
-src: ./pages/resource.md
----
----
 src: ./pages/summary.md
 ---
 ---

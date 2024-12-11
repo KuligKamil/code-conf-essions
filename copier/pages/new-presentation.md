@@ -9,7 +9,7 @@ For the presentation, I use Slidev.
 <v-clicks>
 
 
-* [https://sli.dev/](https://sli.dev/)
+
 * Slidev allows to create slides using Markdown.
 * Today presentation is created using Slidev.
 * Powered by Vue.js, JavaScript, HTML, CSS.
@@ -22,4 +22,4 @@ For the presentation, I use Slidev.
 
  ![Alt text](./assets/slidev.png)
 
- <!-- -->
+<FooterLink text="https://sli.dev/" link="https://sli.dev/" />

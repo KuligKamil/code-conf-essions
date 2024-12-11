@@ -2,15 +2,8 @@
   "name": "code-conf-essions",
   "type": "module",
   "private": true,
-  "scripts": { 
-    "ps-2024": "slidev --open ps-2024/main.md",
-    "export-ps-2024": "slidev export ps-2024/main.md -output prod/ps-2024", 
-    "ps-2024": "slidev --open ps-2024/main.md",
-    "export-ps-2024": "slidev export ps-2024/main.md -output prod/ps-2024", 
-    "ps-2024": "slidev --open ps-2024/main.md",
-    "export-ps-2024": "slidev export ps-2024/main.md -output prod/ps-2024", 
-    "ps-2024": "slidev --open ps-2024/main.md",
-    "export-ps-2024": "slidev export ps-2024/main.md --output prod/ps-2024.pdf",
+  "scripts": {
+    "export-copier": "slidev export copier/main.md --output prod/copier.pdf",
     "build": "slidev build",
     "dev": "slidev --open",
     "copier": "slidev --open copier/main.md",

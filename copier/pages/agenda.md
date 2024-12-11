@@ -8,7 +8,14 @@ hideInToc: true
 <Toc />
 
 <!-- 
-* Basics of Copier
-* Demonstration
-* Copier vs Cookiecutter
-* Conclusion -->
+Next 
+
+Than
+
+Again comparison
+
+Later
+
+Afterwards
+
+Conclusions and Resources -->

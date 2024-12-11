@@ -9,7 +9,21 @@ layout: two-cols
 
 <v-clicks>
 
-* Resource - Documentation for Copier [https://copier.readthedocs.io/en/stable/](https://copier.readthedocs.io/en/stable/)
+* Documentation for Copier [https://copier.readthedocs.io/en/stable/](https://copier.readthedocs.io/en/stable/)
+
+* Automated code prettifier [https://github.com/copier-org/autopretty](https://github.com/copier-org/autopretty)
+  
+* copier-templates-extensions [https://github.com/copier-org/copier-templates-extensions#context-hook-extension](https://github.com/copier-org/copier-templates-extensions#context-hook-extension)
+
+* My presentation 
+[https://github.com/KuligKamil/code-conf-essions/prod](https://github.com/KuligKamil/code-conf-essions/prod)
+
+
+
+</v-clicks>
+
+::right::
+<v-clicks>
 
 
 My linkedin
@@ -23,21 +37,4 @@ Maciej Morawski
 
 </v-clicks>
 
-::right::
-<v-clicks>
-
-
-
-<!-- <QRcode title="My Linkedin " source="./assets/linkedin-qrcode.png"/> -->
-
-To the presentation
-
-<!-- <img style="height: 200px;" src="./assets/workshop-qrcode.png" />  -->
-<img style="height: 200px;" src="./assets/presentation-qrcode.png" /> 
-
-<!-- https://github.com/KuligKamil/code-conf-essions/tree/main/prod/mongodb-python-summit-2024.pdf -->
-
-<!-- 
-<img style="height: 300px;" :src="source" />   -->
-
-</v-clicks>
+<!-- I am looking for  a job -->

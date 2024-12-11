@@ -12,6 +12,8 @@ Allowing you to generate HTML, python(py) other files formats with dynamic data.
 
 <v-clicks>
 
+`{{ ... }}` for Expressions to print to the template 
+
 
 ```python
 import jinja2
@@ -23,6 +25,9 @@ template.render(name=name)
 ```
 
 `Hello, Python Summit!`
+
+`{% ... %}` for Statements to control the logic of the template
+
 
 ```python
 template = environment.from_string("Presentation is a {% if name %}SUCCESS{% else %}FAILURE{% endif %}.")
