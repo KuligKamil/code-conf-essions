@@ -34,6 +34,8 @@ For almost 6 years.
 
 I love to share knowledge.
 
+Inspire
+
 Last Time I was workshop instructor at Python Sweden.
 
 If you wolud like to see what I did recommend to check VOD.

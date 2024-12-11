@@ -12,6 +12,7 @@ Allowing you to generate HTML, python(py) other files formats with dynamic data.
 
 <v-clicks>
 
+
 `{{ ... }}` for Expressions to print to the template 
 
 
@@ -35,5 +36,6 @@ template.render(name=name)
 ```
 
 `Presentation is a SUCCESS.`
+
 
 </v-clicks>

@@ -21,10 +21,16 @@ For Blogging, I used Jekyll.
 
  <!-- 
  I am using Jekyll for my blog.
- I am not the best writer but I am trying to improve my writing skills.
- Learn in public. With blog I can fight with my imposter syndrome. To compare what I learn before and what I know now.
- 
- I am using Github Actions to deploy my blog post.
 
- But new year new me. 
+ I am not the best writer 
+ but I am trying to improve my writing skills.
+
+ Learn in public.  But new year new me. 
+ 
+ With blog I can fight with my imposter syndrome. 
+ 
+ To compare what I learn before and what I know now.
+
+
+  I am using Github Actions to deploy my blog post.
  -->
