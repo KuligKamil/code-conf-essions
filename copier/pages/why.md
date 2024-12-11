@@ -32,29 +32,17 @@ hideInToc: true
 </v-clicks>
 
 <!-- 
+
   Unaware of Copier
-  Cookiecutter was not ideal for existing projects - my case at work involved multi repo, which was resolved in 15 minutes.
-TODO: use components for two links, maybe use slot
-I never use commercially use MongoDB or NoSQL Database.
-I always use Relational Databases. Mostly PostgreSQL.
-I always want to try something new.
+  
+  I had task to do add new project 
+  
+  Multi repo - repository with small projects
 
+  To add that
+  
+  Cookiecutter was not ideal for existing projects
 
-> If you can’t explain it to a six-year-old, you don’t understand it yourself.
-Not sure who
-
-
-> You don't have to be an expert, just know more than the person learning from you.
-Not sure who
-
-
-> The best option to learn something new is to create workshop. You have perfect motivation, deadline. 
-Kamil Kulig
-
-
-Clients often don't know what they want 
-MongoDB can make it easier to create MVPs
-
-
+ which was resolved in 15 minutes.
 
 --> 
