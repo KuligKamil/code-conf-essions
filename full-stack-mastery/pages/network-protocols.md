@@ -1,0 +1,41 @@
+
+
+Write each protocol in the correct layer of the OSI model:
+
+- **HTTP**: Application Layer
+- **TCP**: Transport Layer
+- **IP**: Network Layer
+- **Ethernet**: Data Link Layer
+- **Bluetooth**: Physical Layer
+- **SMTP**: Application Layer
+- **FTP**: Application Layer
+- **UDP**: Transport Layer
+- **SSH**: Application Layer
+- **TLS**: Transport Layer
+- **POP3**: Application Layer
+- **IMAP**: Application Layer
+- **DNS**: Application Layer
+- **DHCP**: Application Layer
+- **ARP**: Data Link Layer
+- **RTP**: Application Layer
+- **SIP**: Application Layer
+- **NTP**: Application Layer
+- **Telnet**: Application Layer
+- **ICMP**: Network Layer
+- **IGMP**: Network Layer
+- **BGP**: Network Layer  
+- **OSPF**: Network Layer
+- **RIP**: Network Layer
+- **HTTP/2**: Application Layer
+- **WebSockets**: Application Layer
+- **QUIC**: Transport Layer
+- **SMTPS**: Application Layer
+- **FTPS**: Application Layer
+- **SFTP**: Application Layer
+- **DNS-over-HTTPS**: Application Layer
+- **DNS-over-TLS**: Application Layer
+- **DNSCrypt**: Application Layer
+- **DoT**: Application Layer
+- **DoH**: Application Layer
+- **DoQ**: Application Layer
+- **DoT**: Application Layer

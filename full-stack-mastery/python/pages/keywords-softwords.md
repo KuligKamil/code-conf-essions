@@ -11,7 +11,7 @@
 #     ...,
 #     'yield'
 # ]
-
+len()
 # class_ = "Python"
 
 # When a variable name conflicts with a Python keyword, it’s recommended to add a trailing underscore to the variable name, following PEP 8’s recommendation.
