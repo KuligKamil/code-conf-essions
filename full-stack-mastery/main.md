@@ -5,7 +5,7 @@ TODO:
 * Do templates for different programming languages
 * Tier list - Different groups knowledge Must Should Okey Perfect
 
-
+mutable vs immutable
 
 
 
@@ -93,3 +93,4 @@ CORS errors
 waht to logout
 
 https://learnxinyminutes.com/docs/python/
+
