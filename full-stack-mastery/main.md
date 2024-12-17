@@ -94,3 +94,12 @@ waht to logout
 
 https://learnxinyminutes.com/docs/python/
 
+
+
+
+
+iterator
+generator
+remidner about index 
+virtual dom
+diffrence between == and is

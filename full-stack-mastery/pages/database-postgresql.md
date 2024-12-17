@@ -1,5 +1,28 @@
 # Database - PostgreSQL
 
+* ACID
+
+  - Atomicity
+  - Consistency
+  - Isolation
+  - Durability
+
+# Unit of work - transaction
+
+Transaction is a unit of work that is performed against a database. It is the propagation of one or more changes to the database. For example, if you are creating a record in a table, you are changing the database by adding a record. This change is a transaction.
+
+Atomic - all or nothing operation - must be success or failed
+Consistency - operation performed on predicated way - can't decreament the balance below 0 - inconsistent operation
+
+Isolation - multiple transaction can run concurrently without affecting each other - one transaction cant impact the outcome the other transaction
+
+Transaction Isolation Levels in PostgreSQL: https://www.youtube.com/watch?v=d3F-C472cqQ
+
+* Read Uncommitted - least strict isolation level, allows dirty reads, non-repeatable reads, and phantom reads 
+* Read Committed - (default in PostgrSQL) prevents dirty reads, but allows non-repeatable reads and phantom reads
+* Repeatable Read - prevents dirty reads and non-repeatable reads, but allows phantom reads
+* Serializable - most strict isolation level, prevents dirty reads, non-repeatable reads, and phantom reads
+
 Index 
  
 data structure assign summarize give you shortcut
@@ -20,15 +43,16 @@ B-Tree
 LSM-Tree
 
 - B-Tree - self balancing search tree
-  Nodes list (low, high) ranges of all of their descendants
-  Leaves list (kye) => (page, row ID)
-  Leaf pages hold link to next leaf page
-- Hash Tables - fast lookups, excelent for == matching, smaller storage, one field only
+
+- Hash Tables - fast lookups, excellent for == matching, smaller storage, one field only
 - GIN - Generalized Inverse Index - supports full-text search, use "tsvector" type
 - BRIN - Block Range Index - for large tables, store min and max values for each page, tiny storage needs
 - GiST 
 - SP-GiST
-
+B-Tree
+  Nodes list (low, high) ranges of all of their descendants
+  Leaves list (kye) => (page, row ID)
+  Leaf pages hold link to next leaf page
 
 TANSTAAFL - There Ain't No Such Thing As A Free Lunch
 
@@ -123,6 +147,7 @@ Commands:
 - TRUNCATE
 - RENAME
 - JOIN
+- CROSS JOIN Cartesian 
 - UNION
 - WHERE
 - ORDER BY
@@ -195,13 +220,6 @@ TODO:
 
 * Relationships
   
-* ACID
-
-  - Atomicity
-  - Consistency
-  - Isolation
-  - Durability
-
 
 
 

@@ -94,3 +94,53 @@ print(f"{salary_sigma_programmer:,}")
 print(f"{salary_sigma_programmer:_}")
 # "{0:,.2f}".format(1234567.89)
 print(f"{1234567.89:,.2f}")
+
+
+class Circle:
+    def __init__(self, radius):
+        self._radius = radius
+
+    @property
+    def radius(self):
+        return self._radius
+
+    @radius.setter
+    def radius(self, value):
+        if not isinstance(value, (int, float)) or value <= 0:
+            raise ValueError("positive number expected")
+        self._radius = value
+
+# setter only works when the property is set, not in initialization
+c = Circle(-1)
+c.radius = -2
+
+# In Python, how can you add function-like behavior to a public attribute without breaking the API?
+
+
+class Person:
+    def __init__(self, name):
+        self._name = name
+
+    @property
+    def name(self):
+        return self._name
+
+    @name.setter
+    def name(self, value):
+        self._name = value.upper()
+
+
+#For example, if you use the data class infrastructure 
+# to write a custom class, then you won’t have to implement 
+# special methods like 
+#.__init__(), .__repr__(), .__eq__(), and .__hash__(). 
+# The data class will write them for you.
+        
+sequence protocol vs iterable protocol
+
+# https://realpython.com/python-data-classes/
+
+
+https://www.youtube.com/watch?v=d3F-C472cqQ
+# when use static class when classmethod
+# https://realpython.com/instance-class-and-static-methods-demystified/
