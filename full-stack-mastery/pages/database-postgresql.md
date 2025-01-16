@@ -23,6 +23,25 @@ Transaction Isolation Levels in PostgreSQL: https://www.youtube.com/watch?v=d3F-
 * Repeatable Read - prevents dirty reads and non-repeatable reads, but allows phantom reads
 * Serializable - most strict isolation level, prevents dirty reads, non-repeatable reads, and phantom reads
 
+
+Constrains
+* NOT NULL
+* UNIQUE
+* PRIMARY KEY
+* FOREIGN KEY
+* CHECK
+* Exclusion
+* DEFAULT
+* INDEX
+* AUTO_INCREMENT
+
+What is key in database?
+
+Key is a single or combination of multiple fields in a table. 
+It is used to fetch or retrieve records/data-rows from data table according to the condition/requirement. 
+Keys are also used to create relationship among different database tables or views.
+
+
 Index 
  
 data structure assign summarize give you shortcut
