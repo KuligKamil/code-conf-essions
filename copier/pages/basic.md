@@ -7,7 +7,9 @@ layout: center
 
 Library & CLI app for rendering project templates. 
 
-NOT ONLY PROJECT TEMPLATES!
+NOT ONLY FOR PROJECT TEMPLATES!
+
+Created in Python.
 
 <img style="height: 100px;" src="./assets/copier-logotype.png" />  
 
