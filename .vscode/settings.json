@@ -1,0 +1,21 @@
+{
+  "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.useLibraryCodeForTypes": true,
+  "python.analysis.indexing": true,
+  "python.analysis.logLevel": "Error",
+  "python.jediEnabled": false,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggest.showWords": true,
+  "editor.suggest.showSnippets": true,
+  "editor.suggest.localityBonus": true,
+  "editor.inlineSuggest.enabled": true,
+  "files.exclude": {
+    "**/__pycache__": true
+  }
+}

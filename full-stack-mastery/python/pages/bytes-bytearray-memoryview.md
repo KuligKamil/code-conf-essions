@@ -22,3 +22,4 @@ what data is binarny data?
 - Serialized objects (e.g., JSON, XML)
 
 # https://docs.python.org/3/library/stdtypes.html#binary-sequence-types-bytes-bytearray-memoryview
+
