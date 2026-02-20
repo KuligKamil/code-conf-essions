@@ -27,4 +27,8 @@ Requirements: Basic Python knowledge and Docker installed.
 6. **Testing** (20 min)
 7. **Performance** (20 min)
 8. **Monitoring** (20 min)
-9.  **Review & Q&A** (10 min)
+9. **Review & Q&A** (10 min)
+
+## About the Instructor
+
+💼 Building at CTHINGS.CO | 💻 programmer, 🌟✨🏆 leader, 🐍 python lover, 🎮 gamer, 🕺 king of disco, ⚽️🏀🏈🥊 love sport in every form, 🇵🇱 from Poland
